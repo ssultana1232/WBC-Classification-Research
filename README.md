@@ -2,7 +2,7 @@
 
 A research project on classifying five types of white blood cells (WBCs) from microscopic images using transfer learning and convolutional neural networks.
 
-Project Overview
+##### **Project Overview**
 
 This project explores five-class WBC image classification using three ImageNet-pretrained CNN architectures:
 
@@ -72,9 +72,13 @@ MobileNetV2	96.05%	95.07%	95.75%	95.38%	0.1305
 
 ##### 
 
-##### **Best result in this experiment:** MobileNetV2, with 96.05% test accuracy, 95.38% macro F1-score, and 0.1305 test loss.
+#### **Best result in this experiment:**
 
-Experimental limitation
+*MobileNetV2, with 96.05% test accuracy, 95.38% macro F1-score, and 0.1305 test loss.*
+
+
+
+##### **Experimental limitation**
 
 This is a preliminary comparison, not a fully controlled architecture-only comparison. EfficientNetB0 was fine-tuned, while ResNet50 and MobileNetV2 were trained with frozen pretrained backbones. The notebook also contains a duplicate ResNet50 training run; the table reports the later run used in the final comparison. Use consistent training configurations before making strong claims about architecture superiority.
 
@@ -128,7 +132,7 @@ This is the intended organization; only add files that actually exist. Keep larg
 
 \- Pillow (PIL)
 
-How to Run
+##### **How to Run**
 
 1\. Open the notebook in Google Colab.
 
@@ -142,7 +146,7 @@ How to Run
 
 Record the exact package versions from the working Colab environment in requirements.txt before attempting a reproducible local run.
 
-Researcher
+#### **Researcher**
 
 Samira Sultana Mysha
 
@@ -150,7 +154,7 @@ Department of Computer Science and Engineering
 
 Premier University
 
-Research Track Internship — Authentic Four Technology
+##### **Research Track Internship** — Authentic Four Technology
 
 Notes
 
