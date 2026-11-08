@@ -1,4 +1,4 @@
-Deep Learning-Based Detection and Classification of White Blood Cells
+### **Deep Learning-Based Detection and Classification of White Blood Cells**
 
 A research project on classifying five types of white blood cells (WBCs) from microscopic images using transfer learning and convolutional neural networks.
 
@@ -18,7 +18,7 @@ Scope: This project classifies cropped WBC images. It does not perform full-smea
 
 
 
-Dataset
+#### **Dataset**
 
 The experiment used 10,298 valid JPG images.
 
@@ -40,7 +40,7 @@ Total	10,298
 
 
 
-Stratified data split:
+#### **Stratified data split:**
 
 Split	Images
 
@@ -70,9 +70,9 @@ MobileNetV2	96.05%	95.07%	95.75%	95.38%	0.1305
 
 
 
+##### 
 
-
-Best result in this experiment: MobileNetV2, with 96.05% test accuracy, 95.38% macro F1-score, and 0.1305 test loss.
+##### **Best result in this experiment:** MobileNetV2, with 96.05% test accuracy, 95.38% macro F1-score, and 0.1305 test loss.
 
 Experimental limitation
 
@@ -112,7 +112,7 @@ WBC-Classification-Research/
 
 This is the intended organization; only add files that actually exist. Keep large datasets, extracted image archives, checkpoints, and large trained model files in Google Drive or suitable external storage. Add shareable links here when available.
 
-Technologies Used
+##### **Technologies Used**
 
 \- Python
 
